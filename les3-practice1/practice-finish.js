@@ -15,7 +15,7 @@ function getSquare(width, height) {
 
 // 4. Напишите функцию kmToMiles, которая принимает значение в километрах, а возвращает преобразованное значение в милях
 function kmToMiles(km) {
-    // return km * 1.6;
+    return km * 0.621;
 }
 
 // 5. Напишите функцию sayHello, которая принимает имя и печатает в консоль приветствие с этим именем. Например, "Пример, Мэри!"
@@ -32,7 +32,7 @@ function sign(t) {
 
 // 7. Написать функцию rand(), которая возвращает случайное целое число в указанном диапазоне
 function rand(min, max) {
-    // return Math.round(Math.random() * (max + min) - min);
+    return Math.floor(Math.random() * (max - min)) + min;
 }
 
 // 8. Напишите функцию countDigits, которая находит кол-во цифр в числе.
